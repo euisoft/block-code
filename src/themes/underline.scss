@@ -1,0 +1,22 @@
+@import 'base.scss';
+
+.block-code-underline {
+  display: flex;
+  gap: 8px;
+
+  .input {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid $input-border-color;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      border-color: $input-border-color-active;
+      transition: border-color 300ms;
+    }
+  }
+}

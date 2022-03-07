@@ -1,0 +1,11 @@
+name: Test
+on: push
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: yarn
+      - name: Run coverage
+        run: yarn coverage

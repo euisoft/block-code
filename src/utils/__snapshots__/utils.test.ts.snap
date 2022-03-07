@@ -1,0 +1,38 @@
+// Vitest Snapshot v1
+
+exports[`Utils > createChunk 1`] = `
+[
+  "b",
+  "l",
+  "o",
+  "c",
+  "k",
+  "-",
+  "c",
+  "o",
+  "d",
+  "e",
+]
+`;
+
+exports[`Utils > createChunk with length 2 1`] = `
+[
+  "bl",
+  "oc",
+  "k-",
+  "co",
+  "de",
+]
+`;
+
+exports[`Utils > createChunk with length 2 but value has spaces 1`] = `
+[
+  "r ",
+  "ea",
+  "ct",
+  " -",
+  " c",
+  "od",
+  "e",
+]
+`;

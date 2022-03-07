@@ -1,0 +1,191 @@
+// Vitest Snapshot v1
+
+exports[`useBlockCode > Should call nSetActiveIndex correctly 1`] = `0`;
+
+exports[`useBlockCode > Should call nSetActiveIndex correctly 2`] = `1`;
+
+exports[`useBlockCode > Should call onCreateInputProps correctly 1`] = `
+{
+  "className": "input",
+  "maxLength": 1,
+  "onFocus": [Function],
+  "onInput": [Function],
+  "onKeyDown": [Function],
+  "onPaste": [Function],
+  "ref": [Function],
+  "value": "",
+}
+`;
+
+exports[`useBlockCode > Should call onReset correctly 1`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onReset correctly 2`] = `0`;
+
+exports[`useBlockCode > Should call onReset correctly 3`] = `"1"`;
+
+exports[`useBlockCode > Should call onReset correctly 4`] = `2`;
+
+exports[`useBlockCode > Should call onReset correctly 5`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onReset correctly 6`] = `0`;
+
+exports[`useBlockCode > Should call onResetValues correctly 1`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onResetValues correctly 2`] = `
+[
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+]
+`;
+
+exports[`useBlockCode > Should call onResetValues correctly 3`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onValidateBeforeChange correctly 1`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onValuesChange correctly 1`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call onValuesChange correctly 2`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call setValues correctly 1`] = `
+[
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`useBlockCode > Should call setValues correctly 2`] = `
+[
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+]
+`;
+
+exports[`useBlockCode > Should call setValues correctly 3`] = `
+[
+  "6",
+  "5",
+  "4",
+  "3",
+  "2",
+  "1",
+]
+`;
+
+exports[`useBlockCode > Should call setValues correctly 4`] = `[]`;
+
+exports[`useBlockCode > Should return input props correctly 1`] = `
+{
+  "activeIndex": 0,
+  "initActiveIndex": 0,
+  "initState": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  ],
+  "onAddValue": [Function],
+  "onAfterAddingValue": [Function],
+  "onCheckValue": [Function],
+  "onCreateInputProps": [Function],
+  "onCreateRef": [Function],
+  "onEnoughData": [Function],
+  "onInput": [Function],
+  "onKeyDown": [Function],
+  "onNextFocusAfterChangingValue": [Function],
+  "onPaste": [Function],
+  "onReset": [Function],
+  "onResetValues": [Function],
+  "onSetActiveIndex": [Function],
+  "onSetValueAtIndex": [Function],
+  "refs": {
+    "current": [],
+  },
+  "setActiveIndex": [Function],
+  "setValues": [Function],
+  "values": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  ],
+}
+`;

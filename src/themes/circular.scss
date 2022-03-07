@@ -1,0 +1,21 @@
+@import 'base.scss';
+
+.block-code-circular {
+  display: flex;
+  gap: 8px;
+
+  .input {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid $input-border-color;
+    border-radius: 100%;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      border-color: $input-border-color-active;
+      transition: border-color 300ms;
+    }
+  }
+}
