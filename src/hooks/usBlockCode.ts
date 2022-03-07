@@ -1,4 +1,3 @@
-import { DEFAULT_INPUT_PROPS, EMPTY_VALUE, KEYLIST } from '../data'
 import {
   ClipboardEvent,
   FormEvent,
@@ -9,13 +8,15 @@ import {
   useRef,
   useState
 } from 'react'
+import { DEFAULT_INPUT_PROPS, EMPTY_VALUE, KEYLIST } from '../data'
 import {
+  ICompleteValue,
   IOnValidateBeforeChange,
   TDataSource,
   TInputFormEvent,
   TInputProps,
-  TOnComplete,
   TOnChange,
+  TOnComplete,
   TOnValidateBeforeChange
 } from '../types'
 import { Utils } from '../utils'
@@ -112,12 +113,19 @@ export const useBlockCode = (props: IUseBlockCodeProps = {}) => {
     const { maxLength } = InputProps
 
     if (maxLength) {
+      const maxValueLength = maxInputs * maxLength
       const raw = values.filter(data => data)
       const value = raw.join(EMPTY_VALUE)
-      const isEnoughData = value.length == maxInputs * maxLength
+      const isEnoughData = value.length === maxValueLength
 
       if (isEnoughData && onComplete) {
-        onComplete({ value, raw, onReset })
+        const completeData: ICompleteValue<string> = {
+          value,
+          raw,
+          onReset
+        }
+
+        onComplete(completeData)
       }
     }
   }, [InputProps, maxInputs, onComplete, onReset, values])
