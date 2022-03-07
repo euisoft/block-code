@@ -222,7 +222,6 @@ activeIndex
 - `onComplete` - A function will be called only when the data is enough. It will pass the data to you. The data is enough when fits the condition below:
   - `maxInputs` \* `inputProps.maxLength`. For example `maxnInputs` is `6` and `inputProps.maxLength` is `1`. The `onComplete` will be triggered if the value has length is `6`
   - `Default`: none
-- `Default`: none
 
 ## License
 
