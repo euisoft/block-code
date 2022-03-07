@@ -15,7 +15,11 @@
 - React hook first
 - Separate logic and ui
 
-## Usage
+## Installation and usage
+
+```
+yarn add block-otp
+```
 
 Here is a quick example to get you started:
 
