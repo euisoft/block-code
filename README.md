@@ -18,7 +18,7 @@
 ## Installation and usage
 
 ```
-yarn add block-otp
+yarn add block-code
 ```
 
 Here is a quick example to get you started:
