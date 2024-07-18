@@ -6,7 +6,7 @@
   </a>
 </p>
 
-## [Live demo](https://eui-official.github.io/block-code)
+## [Live demo](https://euisoft.github.io/block-code)
 
 ## Highlights
 
